@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@700&family=Poppins:wght@200&family=Roboto:ital,wght@1,900&display=swap");
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+pre,
+dl,
+dd,
+ol,
+ul,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  border-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family:
+    "Lexend Mega",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.button,
+#null {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(177deg, #322828 50.24%, rgba(50, 40, 40, 0) 107.74%);
+  border: none;
+  margin: 5px 5px;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Lexend Mega";
+  font-size: 16px;
+  outline: none;
+}
+
+#null {
+  width: 115px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+#clear_btn,
+#neg_pos_button,
+#present_btn {
+  background: #fff;
+  color: #322828;
+}
+
+#division,
+#multiply,
+#sum,
+#subtract,
+#result {
+  background: #ff9500;
+}
+
+.display {
+  width: 250px;
+  height: 80px;
+  text-align: end;
+  font-size: 50px;
+}
+
+.calculator_main {
+  max-width: 1200px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.calculator_body {
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  top: 90px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #2b1e1e;
+  border-radius: 10px;
+}
+
+.buttons {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
